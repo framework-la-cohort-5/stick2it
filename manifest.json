@@ -1,0 +1,24 @@
+{
+  "manifest_version": 1,
+
+  "name": "Stick2it",
+  "description": " This Chrome Extension will keep you accoutnable for your goals regarding Job/Career Growth and Personal Growth.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "Stick2it.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
+
+"content_scripts": [
+ {
+   "matches": [
+     "<all_urls>"
+   ],
+   "js": ["content.js"]
+ }
+]
