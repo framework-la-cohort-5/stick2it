@@ -1,0 +1,33 @@
+#stories {
+  font-family: courier-new;
+  color: black;
+  white-space: nowrap;
+  font-size: 30px;
+}
+
+#job {
+  font-family: courier-new;
+  color: black;
+  white-space: nowrap;
+  font-size: 30px;
+}
+
+#goals {
+  font-family: courier-new;
+  color: black;
+  white-space: nowrap;
+  font-size: 30px;
+}
+
+#inputbox {
+  color: black;
+  text-align: center;
+}
+
+.subhead {
+  text-align: center;
+}
+
+.tophead{
+  text-align:center;
+}
