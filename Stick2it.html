@@ -4,10 +4,27 @@
   <head>
     <meta charset="UTF-8">
     <title>Stick2it</title>
-    <script src = "Stick2it.js"></script>
+    <script src="Stick2it.js"></script>
+    <link href="Stick2it.css" rel="stylesheet">
   </head>
   <body>
   <h1>Time to do your work</h1>
-  <button id="checkPage"> Check this page now! </button>
+  <div id="stories">
+  <p class="tophead">Top 3 Stories</p>
+  </div>
+  <div id="job">
+    <p> Top New Open Postions</p>
+    </div>
+    <div id="goals">
+      <p class="subhead"> Top Goals of the Day </p>
+        <div id="inputbox">
+        <form action="/action_page.php">
+      Goal 1: <input type="text" name="Goal 1" value=""><br>
+      Goal 2: <input type="text" name="Goal 2" value=""><br>
+      Goal 3: <input type="text" name="Goal 3" value=""><br>
+      <input type="submit" value="Submit">
+    </form></div>
+      </div>
+  <!-- <button id="checkPage"> Click My Button </button> -->
   </body>
 </html>
