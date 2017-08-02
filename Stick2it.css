@@ -5,6 +5,14 @@
   font-size: 30px;
 }
 
+#background {
+  color: blue;
+}
+
+.title {
+  text-align: center;
+}
+
 #job {
   font-family: courier-new;
   color: black;

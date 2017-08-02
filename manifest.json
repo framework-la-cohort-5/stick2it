@@ -11,6 +11,10 @@
    "default_icon": {
     "50" : "image 1.png"
   },
-   "default_popup": "Stick2it.html"
- }
-}
+   "default_popup": "Stick2it.html",
+   "content_scripts": [
+       {
+         "matches": ["http://www.google.com/*"],
+         "css": ["mystyles.css"],
+         "js": ["jquery.js", "myscript.js"]
+       }
