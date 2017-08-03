@@ -8,6 +8,23 @@ $.ajax({
     method: "GET",
     url: myUrl,
     success: function(data) {
-      console.log(data);
+      console.log('data', data);
+      var obj = data.articles;
+      $('#Title').append(obj[0].title);
+      // $('#Title').append(obj[1].title);
+      // $('#Title').append(obj[9].title);
+
+
+
+
+
+      console.log('article', data.articles)
+        console.log('bedtime',data.articles[0]);
+          console.log('title', data.articles[0].title);
+
+
+
+      // var obj =
+      // for(var i = 0; i < articles.length; i++)
     }
   });

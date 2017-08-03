@@ -5,6 +5,14 @@
   font-size: 30px;
 }
 
+#append2 {
+  font-size:25px;
+}
+
+#append1 {
+  font-size: 25px;
+}
+
 #background {
   color: blue;
 }
@@ -14,6 +22,7 @@
 }
 
 #job {
+  text-align: center;
   font-family: courier-new;
   color: black;
   white-space: nowrap;
@@ -36,6 +45,6 @@
   text-align: center;
 }
 
-.tophead{
+#tophead{
   text-align:center;
 }
